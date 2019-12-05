@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".nissan.NissanModels">
+
+        <TextView
+            android:id="@+id/tvChooseModelNissan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Выберите модель:"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/logo_skyline" />
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/ALSI_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline AlSI-1"></Button>
+
+                <Button
+                    android:id="@+id/ALSI_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline AlSI-2"></Button>
+
+                <Button
+                    android:id="@+id/ALSI-12"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline BlSI-3"></Button>
+
+                <Button
+                    android:id="@+id/S21"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline S21"></Button>
+
+                <Button
+                    android:id="@+id/S50"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline S50"></Button>
+
+                <Button
+                    android:id="@+id/S54"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline S54"></Button>
+
+                <Button
+                    android:id="@+id/S57"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan (Prince) Skyline S57"></Button>
+
+                <Button
+                    android:id="@+id/C10"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan Skyline C10"></Button>
+
+                <Button
+                    android:id="@+id/C110"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan Skyline C110"></Button>
+
+                <Button
+                    android:id="@+id/C210"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan Skyline C210"></Button>
+
+                <Button
+                    android:id="@+id/R31"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan Skyline R31"></Button>
+
+                <Button
+                    android:id="@+id/R32"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan Skyline R32"></Button>
+
+                <Button
+                    android:id="@+id/R33"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nissan Skyline R33"></Button>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

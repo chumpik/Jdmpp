@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "828482891792",
+    "firebase_url": "https://jdmpedia.firebaseio.com",
+    "project_id": "jdmpedia",
+    "storage_bucket": "jdmpedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828482891792:android:6dfecd98e86116fecf5a95",
+        "android_client_info": {
+          "package_name": "com.chumpik.jdmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828482891792-1hohf690t1jsshj11r9rfts65par575n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe_eWxTdCAh9RAFzYoyxRpQWYBdneeCRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828482891792-1hohf690t1jsshj11r9rfts65par575n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

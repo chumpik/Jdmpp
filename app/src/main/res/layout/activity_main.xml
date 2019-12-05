@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="JDMpedia"
+            android:textSize="26sp" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibNissan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:visibility="visible"
+                tools:src="@drawable/logo_nissan">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ibToyota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:visibility="visible"
+                tools:src="@drawable/logo_toyota"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/ibMazda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/logo_mazda" />
+
+            <ImageButton
+                android:id="@+id/ibHonda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/logo_honda" />
+        </LinearLayout></HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:text="Last update">
+        </TextView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvChooseToyota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Toyota"
+        android:layout_marginTop="10dp"
+        android:textSize="36dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="О марке"
+        android:layout_marginTop="90dp"
+        android:id="@+id/bAbToy"
+        android:textSize="20sp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Модели"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bModToy"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кастом модели"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bCstmToy"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSiteToyRu"
+        android:text="Сайт (Ru)"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"></Button>
+</LinearLayout>
