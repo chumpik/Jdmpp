@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".nissan.nissan_models.ALSI_2"></activity>
+        <activity android:name=".nissan.nissan_models.R34"></activity>
+        <activity android:name=".nissan.nissan_models.ALSI_2" />
         <activity android:name=".nissan.nissan_models.ALSI_1" />
         <activity android:name=".nissan.NissanModels" />
         <activity android:name=".toyota" />
