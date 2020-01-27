@@ -24,7 +24,7 @@
         android:layout_width="283dp"
         android:layout_height="189dp"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/alsi_1_1" />
 
     <TextView
