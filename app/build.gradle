@@ -7,8 +7,8 @@ android {
         applicationId "com.chumpik.jdmapp"
         minSdkVersion 18
         targetSdkVersion 29
-        versionCode 1
-        versionName "0.121"
+        versionCode 3
+        versionName "0.162 prepreprealpha"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
