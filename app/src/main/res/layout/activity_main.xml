@@ -11,6 +11,7 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
+
         <TextView
             android:id="@+id/tvHello"
             android:layout_width="wrap_content"
@@ -19,6 +20,12 @@
             android:layout_marginTop="10dp"
             android:text="JDMpedia"
             android:textSize="26sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="debug"
+            android:id="@+id/debug121"></Button>
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -72,7 +79,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textColor="@android:color/black"
-            android:text="Last update">
+            android:text="Last update:
+    Слегка переделаны страницы, проводится оптимизация ресурсов приложения.
+    Начата переработка альбомов">
         </TextView>
     </LinearLayout>
 </ScrollView>
